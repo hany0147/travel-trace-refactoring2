@@ -1,0 +1,56 @@
+.add_btn {
+  border: 1;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px;
+  margin-left: 90%;
+}
+
+.add_btn2 {
+  border: 1;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px;
+  display: none;
+}
+
+.add_picture {
+  margin-bottom: 20px;
+}
+
+.order_picture {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.img_container {
+  display: flex;
+  height: 150px;
+  width: 150px;
+}
+
+.trip_img {
+  width:90%;
+  height:90%;
+  object-fit:cover;
+}
+.trash_icon {
+  fill: rgb(86, 82, 82);
+  cursor: pointer; 
+}
+
+.images_icon {
+  width: 30px;
+  height: 30px;
+  fill: #A0D468;
+  cursor: pointer; 
+}
